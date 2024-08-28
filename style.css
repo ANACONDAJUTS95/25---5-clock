@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f5;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: -70px auto 10px auto;
+  }
+  
+  .title p {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  #clock {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .control-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .control-buttons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .control-buttons button {
+    background-color: #007aff;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .control-buttons button:hover {
+    background-color: #005bb5;
+  }
+  
+  span {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  #timer-label {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  #time-left {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  #start_stop,
+  #reset {
+    background-color: #007aff;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  #start_stop:hover,
+  #reset:hover {
+    background-color: #005bb5;
+  }

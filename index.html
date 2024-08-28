@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 + 5 Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        25 + 5 Clock
+        <p>by: Anthon Sepacio</p>
+    </div>
+
+    <div id="clock">
+        <div class="control-buttons">
+            <div>
+                <h2 id="break-label">Break Length</h2>
+                <button id="break-decrement">-</button>
+                <span id="break-length">5</span>
+                <button id="break-increment">+</button>
+            </div>
+            <div>
+                <h2 id="session-label">Session Length</h2>
+                <button id="session-decrement">-</button>
+                <span id="session-length">25</span>
+                <button id="session-increment">+</button>
+            </div>
+        </div>
+        <div>
+            <h2 id="timer-label">Session</h2>
+            <div id="time-left">25:00</div>
+            <button id="start_stop">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        <audio id="beep" src="https://cdn.freesound.org/previews/221/221085_1282865-lq.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
